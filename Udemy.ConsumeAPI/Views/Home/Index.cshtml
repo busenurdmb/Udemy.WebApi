@@ -1,0 +1,43 @@
+﻿
+@model List<Udemy.ConsumeAPI.ResponseModels.ProductResponseModel>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Web Api Consume</title>
+</head>
+<body>
+    <p>MVC Works</p>
+   
+    <p>@ViewBag.ResponMessage</p>
+    <a asp-action="Create" asp-controller="Home">Yeni Ürün Ekle</a>
+    <table>
+        <tr>
+            <th>Ürünün Adı</th>
+            <th>Fiyatı</th>
+            <th>Stok</th>
+            <th></th>
+        </tr>
+        @{ if (Model != null)
+            {
+
+                @foreach (var Product in Model)
+                {
+                    <tr>
+                        <td>@Product.Name</td>
+                        <td>@Product.Price</td>
+                        <td>@Product.Stock</td>
+                        <td>
+                            <a asp-action="Update" asp-controller="Home" asp-route-id="@Product.Id">Güncelle</a>
+                            <a asp-action="Remove" asp-controller="Home" asp-route-id="@Product.Id">Sil</a>
+                        </td>
+                    </tr>
+                }
+
+
+            }
+
+ }
+
+
+    </table>
+</body>
+</html>

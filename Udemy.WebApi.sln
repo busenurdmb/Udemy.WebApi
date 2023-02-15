@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy.WebApi", "Udemy.WebApi\Udemy.WebApi.csproj", "{1EEC0623-E4E0-44F7-858B-19EC854DE39A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy.ConsumeAPI", "Udemy.ConsumeAPI\Udemy.ConsumeAPI.csproj", "{87BA0C2A-22DF-463E-8D0D-8E49CA8B1750}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EEC0623-E4E0-44F7-858B-19EC854DE39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEC0623-E4E0-44F7-858B-19EC854DE39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEC0623-E4E0-44F7-858B-19EC854DE39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEC0623-E4E0-44F7-858B-19EC854DE39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BA0C2A-22DF-463E-8D0D-8E49CA8B1750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BA0C2A-22DF-463E-8D0D-8E49CA8B1750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BA0C2A-22DF-463E-8D0D-8E49CA8B1750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BA0C2A-22DF-463E-8D0D-8E49CA8B1750}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CEDA0BF-C240-4510-910B-DF9D9D3CC1D2}
+	EndGlobalSection
+EndGlobal
